@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dfd2aae6-2826-45c5-b5c6-446a9a83100f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/day01_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day01/day01_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.Test_PartOneSample in day02_test.go">
     <configuration name="Test_PartOne in day01_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="aoc2020" />
       <working_directory value="$PROJECT_DIR$/day01" />
@@ -46,8 +45,19 @@
       <pattern value="^\QTest_PartOne\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_PartOneSample in day02_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc2020" />
+      <working_directory value="$PROJECT_DIR$/day02" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day02/day02_test.go" />
+      <pattern value="^\QTest_PartOneSample\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_PartOneSample in day02_test.go" />
         <item itemvalue="Go Test.Test_PartOne in day01_test.go" />
       </list>
     </recent_temporary>
@@ -66,5 +76,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
