@@ -49,6 +49,16 @@ function part_one(useMap :string[], r: number, d: number){
   return currTrees;
 }
 
+function part_two(useMap :string[]) {
+  const r1 = part_one(useMap, 1,1);
+  const r2 = part_one(useMap, 3,1);
+  const r3 = part_one(useMap, 5,1);
+  const r4 = part_one(useMap, 7,1);
+  const r5 = part_one(useMap, 1,2);
+
+  return r1 * r2 * r3 * r4 * r5;
+}
+
 describe('calculate', function() {
     it('add', function() {
       let result = 5+2;
@@ -76,6 +86,15 @@ describe('Day 3', () =>{
   it("should work all the way for part one, my input", async () => {
     let theMap :string[] = await readMapFile('input.txt');
     expect(part_one(theMap, 3, 1)).toBe(181);
+  });
+
+  it("should work example of part 2", () => {
+    expect(part_two(testMap)).toBe(336);
+  });
+
+  it("should work example of part 2", async () => {
+    let theMap :string[] = await readMapFile('input.txt');
+    expect(part_two(theMap)).toBe(1260601650);
   });
 
 });
