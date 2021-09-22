@@ -4,5 +4,7 @@ Doing this project to learn about TypeScript.
 
 ## How to run?
 
-`npm install`
-`npm run tests`
+```
+npm install
+npm run tests
+```
